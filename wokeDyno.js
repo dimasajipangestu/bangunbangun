@@ -3,7 +3,7 @@
 const fetch = require("node-fetch");
 const timeToNap = require("./naptime.js");
 
-const wokeDyno = (options) => {
+const wokeDyno = (options="https://testpythonmpa.herokuapp.com/") => {
     let url;
     if (typeof options === "string") {
         url = options;
